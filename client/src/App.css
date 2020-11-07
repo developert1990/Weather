@@ -1,0 +1,28 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  color: #eee7e7;
+}
+.App hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(153, 148, 148, 0), rgba(133, 128, 128, 0.75), rgba(223, 217, 217, 0));
+  
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.particles-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

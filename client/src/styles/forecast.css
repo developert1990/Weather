@@ -1,0 +1,24 @@
+.forecast__title{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.forecast__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.forecast__icon{
+    margin-bottom: 15px;
+    font-size: 35px;
+}

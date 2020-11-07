@@ -1,0 +1,89 @@
+.weather {
+    text-align: center;
+    margin: 100px;
+}
+
+.weather__inputs {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 10;
+    
+}
+
+input{
+    color: #eee7e7;
+    font-weight: bold;
+}
+.dropdown {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #eee7e7;
+    margin-right: 25px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.dropdown__menu {
+    height: 200px;
+    overflow-y: scroll;
+    background-color:#17a2b8;
+    
+}
+.dropdwon__item{
+    color: white;
+}
+.dropdown__menu img {
+    width: 30px;
+    margin-right: 12px;
+}
+
+.weather__loading{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.weather__info {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 365px;
+
+}
+
+
+.weather_icon {
+    margin: 20px 0;
+}
+
+.max__min {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.weather__desc {
+    margin-bottom: 30px;
+}
+
+.weather__time {
+    font-size: 25px;
+}
+
+.weather__error {
+    color: red;
+    font-size: 25px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
